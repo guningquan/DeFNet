@@ -1,0 +1,24 @@
+experiment: dbg
+seed: 20
+base_path: /home/heruhan/gnq/paper_codes/FabricFlowNet
+train_name: biman_towel_actpickplace_n500_h3_co1_am0.9_tc0.3_cam0.65_lact
+val_name: biman_towel_actpickplace_n100_h3_co1_am0.9_tc0.3_cam0.65_lact
+max_train_samples: null
+max_val_samples: null
+workers: 6
+batch_size: 16
+epochs: 300
+check_val_every_n_epoch: 1
+tboard_log_dir: tb
+csv_log_dir: csv
+net_cfg:
+  input_channels: 8
+  weight_decay: 0.0001
+  lr: 0.001
+  batchNorm: true
+spatial_aug: 0.9
+spatial_trans: 5
+spatial_rot: 5
+debug_viz:
+  remove_occlusions: false
+  data_sample: false
