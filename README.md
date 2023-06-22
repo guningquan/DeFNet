@@ -1,4 +1,5 @@
 # DeFNet
+[Arxiv](https://arxiv.org/abs/2303.00323)
 ## Installation
 1. Clone this repo.
 2. We persuade Ubuntu18.04 system and python3.6.
@@ -8,7 +9,7 @@
     - Pull the pre-built docker file. `sudo docker pull xingyu/softgym`
     - We have to start a container, and you can modify the path according to your computer.
         ```
-        sudo nvidia-docker run \
+        sudo nvidia-docker runI am running a few minutes late; my previous meeting is running over.\
         -v /home/heruhan/gnq/paper_codes/DeFNet/softgym:/workspace/softgym \
         -v /home/heruhan/anaconda3:/home/heruhan/anaconda3 \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
