@@ -9,7 +9,7 @@
     - Pull the pre-built docker file. `sudo docker pull xingyu/softgym`
     - We have to start a container, and you can modify the path according to your computer.
         ```
-        sudo nvidia-docker runI am running a few minutes late; my previous meeting is running over.\
+        sudo nvidia-docker run \
         -v /home/heruhan/gnq/paper_codes/DeFNet/softgym:/workspace/softgym \
         -v /home/heruhan/anaconda3:/home/heruhan/anaconda3 \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
