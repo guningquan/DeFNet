@@ -1,4 +1,4 @@
-# DeFNet: Deconstructed Fabric Folding Strategy Based on Latent Space Roadmap and Flow-Based Policy
+# DeFNet
 ## Installation
 1. Clone this repo.
 2. We persuade Ubuntu18.04 system and python3.6.
